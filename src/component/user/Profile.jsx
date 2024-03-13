@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Loader from "../../layout/Loader";
 import { Link,useNavigate } from "react-router-dom";
 import "./Profile.css";
-import { Box, Toolbar } from "@material-ui/core";
+import { Box } from "@material-ui/core";
 
 const Profile = () => {
   const navigate  = useNavigate();
@@ -20,7 +20,6 @@ const Profile = () => {
         <Loader />
       ) : (
         <Fragment>
-        <Toolbar/>
           <Box  className="profileContainer">
             <div>
               <h1>My Profile</h1>

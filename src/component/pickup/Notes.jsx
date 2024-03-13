@@ -1,9 +1,9 @@
-import React, { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button';
 
 // import './Pickup.css';
 
-import pickup from '../../project-pic/pickup.png';
+import pickup from '../../component/project-pic/pickup.png';
 import { useSelector, useDispatch } from "react-redux";
 import { useAlert } from "react-alert";
 import { createPickup, clearErrors } from "../../actions/pickupAction";

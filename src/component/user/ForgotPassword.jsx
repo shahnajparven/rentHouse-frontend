@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import  { Fragment, useState, useEffect } from "react";
 import "./ForgotPassword.css";
 import Loader from "../../layout/Loader";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
