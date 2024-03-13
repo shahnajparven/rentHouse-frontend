@@ -21,6 +21,7 @@ import { red } from "@mui/material/colors";
 import { Divider } from "@mui/material";
 import "./HeroPage.css";
 
+
 const pages = [
   <Box>
     <Link className="navlink-mobile" to="/">
@@ -251,6 +252,7 @@ function HeroPage() {
      {/* this is where children pages will show */}
      <Outlet />
    </Box>
+  
    </>
   );
 }
