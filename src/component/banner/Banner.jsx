@@ -3,7 +3,7 @@ import pic2 from "../../assets/img2.jpg";
 import pic3 from "../../assets/img4.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import "./Banner.css";
-import "../../Main.css";
+// import "../../Main.css";
 import { Box } from "@mui/material";
 
 const Banner = () => {
