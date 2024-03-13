@@ -3,7 +3,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { positions, transitions, Provider as AlertProvider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
-import "./Main.css";
+import "./main.css";
 
 const options = {
   timeout: 5000,
