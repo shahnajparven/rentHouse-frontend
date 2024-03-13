@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "./Navigation.css";
-import "../../Main.css";
 import { NavLink } from "react-router-dom";
 import { Box, Divider, IconButton } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
