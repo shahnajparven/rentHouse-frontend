@@ -29,7 +29,7 @@ const pages = [
     </Link>
   </Box>,
   <Box>
-    <Link className="navlink-mobile" to="Category">
+    <Link className="navlink-mobile" to="category">
       Category
     </Link>
   </Box>,
