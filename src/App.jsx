@@ -5,6 +5,7 @@ import HeroPage from './layout/HeroPage';
 import Footer from './layout/footer/Footer';
 import Category from './component/category/Category';
 import Products from './component/home/Products';
+import ProductDetails from './component/product/ProductDetails';
 function App() {
  
 
@@ -15,6 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route extact path="/category" element={<Category />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/products/:keyword" element={<Products />} />
         </Routes>
         <Footer />
     </>
