@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import  { Component } from "react";
 import "./Category.css";
 import Paper from "@mui/material/Paper";
 import {

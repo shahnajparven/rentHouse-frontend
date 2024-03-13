@@ -55,7 +55,14 @@ const pages = [
   </Box>,
 ];
 
-function HeroPage() {
+function HeroPage({isAuthenticated}) {
+
+  const [state, setState] = React.useState(true);
+  React.useEffect(() => {
+    if (isAuthenticated) {
+      setState(false);
+    } else setState(true);
+  }, [isAuthenticated]);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -218,11 +225,16 @@ function HeroPage() {
             </Box>
 
              <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title="Open settings">
+              {/* <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                   <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
                 </IconButton>
-              </Tooltip>
+              </Tooltip> */}
+              {state ? (
+              <Link to="LoginSignup" style={{ textDecoration: "none" }}>
+                <Box className="account" color={red[500]}> SignUp | SignIn</Box>
+              </Link>
+            ) : null}
               <Menu
                 sx={{ mt: "45px" }}
                 id="menu-appbar"
