@@ -6,7 +6,7 @@
 }
 
 .navarea {
-  /* height: 25vh; */
+  
   width: 100%;
   z-index: 2;
   position: fixed !important;
@@ -20,6 +20,7 @@
 }
 .mainNavArea {
   height: 12vh;
+  width: 100%;
 }
 
 .navlink {
