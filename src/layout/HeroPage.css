@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 
-
 .logo_name{
   font-family: "Satisfy", cursive;
 }
-
-.navarea {
-  width: 100%;
-  z-index: 2;
-  position: fixed !important;
-  background-color: #272829 !important;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.26);
- 
+.navarea{
+  position: fixed;
+ width: 100% !important;
 }
+.appbar{
+  
+  height: 12vh;
+  background-color: #272829 !important; 
+}
+
 .firstNavArea {
+  background-color: #272829 !important;
   height: 8vh;
   font-size: 1rem;
 }
 .mainNavArea {
   height: 12vh;
-  width: 100%;
 }
 
 .navlink {
@@ -28,6 +28,13 @@
   font-size: 1rem;
   text-decoration: none;
   color: white;
+  z-index: 2;
+}
+.navlink-mobile {
+  margin: 0.6rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #272829;
   z-index: 2;
 }
 

@@ -1,13 +1,13 @@
 import './App.css'
 import Home from './component/home/Home'
 import { Routes, Route } from "react-router-dom";
-import Navigation from './layout/nav/Navigation';
+import HeroPage from './layout/HeroPage';
 function App() {
  
 
   return (
     <>
-    <Navigation/>
+    <HeroPage/>
      <Routes>
         <Route path="/" element={<Home />} />
         </Routes>

@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "./Navigation.css";
-// import "../../Main.css";
+import "../../main.css";
 import { NavLink } from "react-router-dom";
 import { Box, Divider, IconButton } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
@@ -90,6 +90,7 @@ const Navigation = () => {
            
             </Box>
           </NavLink>
+         
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0 navitms">
